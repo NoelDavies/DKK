@@ -1,0 +1,90 @@
+﻿nav#panel_tabs{
+    display: block;
+    background-color: #fff;
+    border: 1px solid #2B2B2B;
+
+    border-radius: 5px;
+}
+nav#panel_tabs div{
+    display:block;
+}
+    nav#panel_tabs div#top_row {
+        height: 45px;
+        background-color: #f3f4f6;
+        border-bottom: solid 1px #D7DBE6;
+
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    nav#panel_tabs div#bottom_row {
+        height: 35px;
+
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+
+nav#panel_tabs div#top_row ul {
+    position: relative;
+    float: left;
+
+    padding: 0 10px;
+    margin: 0;
+}
+    nav#panel_tabs div#top_row ul li {
+        position: static;
+        float: left;
+        width: auto;
+
+        padding: 15px 10px 5px;
+        list-style-type: none;
+        border: 1px solid transparent;
+
+        transition: background 0.3s ease;
+    }
+		nav#panel_tabs div#top_row > ul > li:hover,
+        nav#panel_tabs div#top_row > ul > li.on{
+			background: #ffffff;
+
+			border: none;
+			/*border-left: 1px solid #D7DBE6;
+			border-right: 1px solid #D7DBE6;*/
+
+			height: 60px;
+		}
+            nav#panel_tabs div#top_row ul li ul {
+                position: absolute;
+                width: 55em;
+				height: 45px;
+                display: none;
+                padding: 0;
+                margin: 0;
+            }
+            nav#panel_tabs div#top_row ul li ul li {
+                margin: 0;
+                padding: 5px 0 0 15px;
+            }
+                nav#panel_tabs div#top_row ul li:hover ul{
+					z-index: 99;
+				}
+                nav#panel_tabs div#top_row ul li:hover ul,
+				nav#panel_tabs div#top_row ul li.on ul {
+				    background: none repeat scroll #FFFFFF;
+    				display: inline-table;
+					border: none;
+					height: 10px;
+
+					left: 0;
+					top: 4em;
+
+                    border-bottom-right-radius: 5px;
+                    border-bottom-left-radius: 5px;
+				}
+                nav#panel_tabs div#top_row ul li ul li a:hover{
+					text-decoration: underline;
+				}
+
+nav#panel_tabs div#top_row a {
+    display: block;
+    position: relative;
+}
+

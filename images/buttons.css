@@ -1,0 +1,122 @@
+/* http://www.zurb.com/article/266/super-awesome-buttons-with-css3-and-rgba */
+
+.button, .button:visited, input[name*="submit"], input[name*="reset"], form.inplaceeditor-form input {
+    background: #222 url(alert-overlay.png) repeat-x;
+    display: inline-block;
+    padding: 5px 10px 6px;
+    color: #fff;
+    text-decoration: none;
+
+    border-radius: 5px;
+    -o-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+
+    box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    -o-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+
+    text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+    border: 0;
+    border-bottom: 1px solid rgba(0,0,0,0.25);
+    position: relative;
+    cursor: pointer;
+}
+    .button:hover, input[name*="submit"]:hover, input[name*="reset"]:hover { background-color: #111; color: #fff; }
+    .button:active { top: 1px; color: #fff; }
+    .pagination .button.disabled { background: none repeat scroll 0 0 transparent; border: 0; box-shadow: 0 0 3px rgba(0,0,0, 0.1); color: grey; margin: 4px 5px; }
+
+
+input[name*="submit"], .editor_ok_button                { background-color: #91bd09;  font-size: 13px; }
+input[name*="submit"]:hover, .editor_ok_button:hover    { background-color: #749a02;  font-size: 13px; }
+
+input[name*="reset"], .editor_cancel_button                { background-color: #e33100;  font-size: 13px; }
+input[name*="reset"]:hover, .editor_cancel_button:hover    { background-color: #872300;  font-size: 13px; }
+
+
+/* Define some sizes for the buttons */
+.small.button, .small.button:visited { font-size: 11px; color: #fff; }
+.medium.button, .medium.button:visited { font-size: 13px; color: #fff; }
+.large.button, .large.button:visited {
+    font-size: 14px;
+    padding: 8px 14px 9px;
+    color: #fff;
+}
+
+/* Some Colors */
+.blue.button, .blue.button:visited
+    { background-color: #2daebf; color: #fff; }
+.blue.button:hover
+    { background-color: #007d9a; color: #fff; }
+
+.red.button, .red.button:visited
+    { background-color: #e33100; }
+.red.button:hover
+    { background-color: #872300; }
+
+.green.button, .green.button:visited
+    { background-color: #91bd09; }
+.green.button:hover
+    { background-color: #749a02; }
+
+.black.button, .black.button:visited
+    { background-color: #000000; }
+.black.button:hover
+    { background-color: #303030; }
+
+.magenta.button, .magenta.button:visited
+    { background-color: #a9014b; }
+.magenta.button:hover
+    { background-color: #630030; }
+
+.orange.button, .orange.button:visited
+    { background-color: #ff5c00; }
+.orange.button:hover
+    { background-color: #d45500; }
+
+.yellow.button, .yellow.button:visited
+    { background-color: #ffb515; }
+.yellow.button:hover
+    { background-color: #fc9200; }
+
+
+.button, .button:visited,
+.medium.button, .medium.button:visited {
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 1;
+    text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+}
+
+.small.button, .small.button:visited {
+    color: #fff;
+    font-size: 11px;
+    padding: 0;
+}
+
+.large.button, .large.button:visited {
+    color: #fff;
+    font-size: 14px;
+    padding: 8px 14px 9px;
+}
+
+/** Pagination **/
+.mini-pagination a, .mini-pagination span {
+    color: #fff !important;
+    padding: 2px 5px 2px 5px;
+    margin: 2px;
+    font-weight: bold;
+}
+
+.button span, input.icon{
+    text-indent: 23px;
+    display: block;
+    height: 16px;
+}
+
+input.icon{
+    background-position: 5px 50%;
+    background-repeat: no-repeat;
+}

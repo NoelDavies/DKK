@@ -1,0 +1,119 @@
+/* GENERAL STYLES */
+
+div.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: verdana;
+}
+div.menu a {
+    display: block;
+    text-decoration: none;
+    cursor: default;
+    outline: none;
+    font-size: 11px;
+}
+.menu .separator {
+    height: 1px;
+    padding: 0;
+    overflow: hidden;
+    display: block;
+    font-size: 1px;
+}
+.menu ul, .menu li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.menu li {
+    list-style-position: outside;
+}
+
+/* DESKTOP STYLES */
+
+.menu.desktop {
+    width: 14em;
+    background: #f9f8f7;
+    border: 1px solid #999;
+    padding: 0;
+}
+.menu.desktop ul, .menu.desktop li {
+    margin: 0;
+    padding: 0;
+}
+.menu.desktop li.separator {
+    height: 1px;
+}
+.menu.desktop a {
+    color: #555;
+    padding: 3px 0 3px 25px;
+    margin: 0;
+    border: 1px solid #f9f8f7;
+}
+.menu.desktop a.disabled {
+    opacity: 0.25;
+    filter: alpha(opacity=25);
+    zoom: 1;
+}
+.menu.desktop li.separator {
+    border-bottom: 1px solid #fff;
+    background: #aaa;
+    margin: 1px 1px 0 1px;
+    line-height: 1px !important;
+}
+.menu.desktop a.new {
+  background: #f9f8f7 url(images/page.png) 2px 50% no-repeat;
+}
+/* we need explicit enabled class to overcome css deficiences (without creating unnecessary markup) */
+.menu.desktop a.enabled:hover {
+    background-color: #0A246A;
+    color: #fff;
+}
+
+/* CMS STYLE */
+
+.menu.cms {
+    width: 14em;
+    background: #161616;
+    border: 1px solid #262626;
+    padding: 0;
+}
+.menu.cms ul, .menu.cms li {
+    margin: 0;
+    padding: 0;
+}
+.menu.cms li.separator {
+    height: 1px;
+}
+.menu.cms a.ava_remove {
+  background: 2px 50% no-repeat;
+  background-image: url('images/bbcode/photo_delete.png');
+}
+.menu.cms a.title {
+    padding: 3px 0 3px 5px;
+}
+
+.menu.cms a {
+    color: #FFFFFF;
+    padding: 3px 0 3px 25px;
+    margin: 0;
+    border: 1px solid #161616;
+}
+.menu.cms a.disabled {
+    opacity: 0.25;
+    filter: alpha(opacity=25);
+    zoom: 1;
+}
+.menu.cms li.separator {
+    border-bottom: 1px solid #5d666c;
+    background: #5d666c;
+    margin: 1px 1px 0 1px;
+    line-height: 1px !important;
+}
+
+/* we need explicit enabled class to overcome css deficiences (without creating unnecessary markup) */
+.menu.cms a.enabled:hover {
+    background-color: #0f0f0f;
+    color: #fff;
+}
+

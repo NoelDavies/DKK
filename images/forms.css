@@ -1,0 +1,70 @@
+@charset "UTF-8";
+/* ** ** forms ** ** */
+form fieldset {-webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius:3px; padding:10px; border:1px solid #eee; }
+form fieldset legend {font-size:1.4em; padding:0 5px;}
+form input[type=text], form input[type=email], form input[type=url], form input[type=password], form input[type=number], textarea {
+    -moz-border-radius: 3px; 
+    -webkit-border-radius: 3px; 
+    border-radius:3px; 
+    height:20px; 
+    margin-bottom:5px; 
+    border:1px solid #ccc; 
+    padding:4px 0 1px 5px;
+    resize: none;
+    outline: none;
+}
+textarea{
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAAYCAYAAADQ+yzZAAAABmJLR0QA/wD7ANblBpcjAAAAHUlEQVR42mL6//8/AwgzMUDB0GYwMjL6ghgAAQYACtkGezRNKpcAAAAASUVORK5CYII=") #FFFFFF;
+    line-height: 24px
+}
+
+input:-webkit-autofill {
+    -moz-border-radius: 3px; 
+    -webkit-border-radius: 3px; 
+    border-radius:3px; 
+    height:20px; 
+    margin-bottom:5px; 
+    border:1px solid #ccc; 
+    padding:4px 0 1px 5px;
+    resize: none;
+    outline: none;
+}
+form .textarea textarea {
+    -moz-border-radius: 3px; 
+    -webkit-border-radius: 3px; 
+    border-radius:3px; 
+    margin-bottom:5px; 
+    min-height:50px;
+    border:1px solid #ccc; 
+    padding:4px 0 1px 5px; width:100%;
+}
+form .textarea {height:auto;}
+form label {display:block; height:20px; font-size:1.2em;}
+
+/* special form styling */
+form div.formRow {padding:5px; border: 3px 0 solid #000;}
+form div.formRow.title{margin-top:6px;}
+form div.formRow label {float:left; width:auto; height: auto;}
+form div.formRow input {width:52%; float:right;}
+form div.formRow input.invalid {border-bottom:1px solid #f00;}
+form div.formRow input[type=submit], form div input[type=reset]{
+    width: auto; float: none;
+}
+
+
+form tr.formRow input {width:98%;}
+form tr.formRow input[type=checkbox], form tr.formRow input[type=radio] {width:auto;}
+
+
+/* single column form styling */
+form .s_column div.formRow {height:auto; margin-bottom:3px; padding:0px;}
+form .s_column div.formRow label {float:none; width:100%;}
+form .s_column div.formRow input {width:98%; float:none;}
+
+
+/* plugin css */
+form select[class=chzn-select]{ min-width: 60%; }
+form.inplaceeditor-form textarea{
+    height: 50px;
+    width: 99%;
+}

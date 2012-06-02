@@ -1,0 +1,48 @@
+
+.title .catIcon{
+    margin: 6px 9px 0 10px;
+}
+
+.catClear .title {
+    margin: 0 0 -4px 0;
+    width:100%;
+}
+.catClear.content{
+    margin: 0 0 10px;
+}
+
+
+.button{
+    margin: 0 5px;
+}
+
+
+
+table.content{
+    display: table;
+}
+
+div.cat_handle{
+    cursor: n-resize;
+}
+
+input.bbButton{
+    float: none;
+    height: 16px;
+    width: 16px;
+    border: 1px solid #B8B8B8;
+    padding: 2px;
+}
+
+input.smilie{
+    float: none;
+    height: 16px;
+    width: 16px;
+    padding: 2px;
+}
+
+td.editor-btn{
+    padding: 0 0 8px 6px;
+}
+
+div.bbrow select{ width: auto; height: 22px; }
