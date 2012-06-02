@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #Cybershade CMS
 
 [Cybershade](http://cybersha.de/) CMS (CSCMS) is a powerful open source, modular content management system.
@@ -69,9 +68,3 @@ Thanks to the people that have contributed and helped test/find bugs in the proj
 Copyright (c) 2011 Cybershade
 
 CSCMS is licensed under the [GPLv3 license](http://www.gnu.org/licenses/gpl-3.0.html).
-=======
-DKK
-===
-
-DKK
->>>>>>> 36cfa05c880f2526b757ba096f9fcc536a71371f
